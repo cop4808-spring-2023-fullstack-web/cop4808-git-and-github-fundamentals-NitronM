@@ -54,7 +54,7 @@ function clickButton() {
                 piAdd(displayValue);
                 updateDisplay();
             } else if(buttons[i].classList.contains('exponent')) 
-                exponentUp(displayValue);
+                exponentTwo(displayValue);
                 updateDisplay();
         }
     )}
@@ -210,7 +210,7 @@ function piAdd(num)
     return displayValue = Math.PI.toFixed(9);
 }
 
-function exponentUp(num)
+function exponentTwo(num)
 {
-    return displayValue = Math.pow(num).toFixed(9);
+    return displayValue = Math.pow(num, 2).toFixed(9);
 }
