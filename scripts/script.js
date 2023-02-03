@@ -47,9 +47,15 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sqrt')) {
                 squareRoot(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('log'))
+            } else if(buttons[i].classList.contains('log')) {
             logofX(displayValue);
             updateDisplay();
+            } else if(buttons[i].classList.contains('pi')) {
+                piAdd(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('exponent')) 
+                exponentUp(displayValue);
+                updateDisplay();
         }
     )}
 }
@@ -197,4 +203,14 @@ function squareRoot(num)
 function logofX(num)
 {
     return displayValue = Math.log(num).toFixed(9);
+}
+
+function piAdd(num)
+{
+    return displayValue = Math.PI.toFixed(9);
+}
+
+function exponentUp(num)
+{
+    return displayValue = Math.pow(num).toFixed(9);
 }
