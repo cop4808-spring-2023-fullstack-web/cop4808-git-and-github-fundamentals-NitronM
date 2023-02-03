@@ -109,7 +109,24 @@ button {
     background-color: rgb(123, 189, 255);
 }
 
-.newtop {
+.sqrt {
     background-color: rgb(179, 121, 35);
     font-weight: bold;
 }
+
+.log {
+    background-color: rgb(179, 121, 35);
+    font-weight: bold;
+}
+
+.pi {
+    background-color: rgb(179, 121, 35);
+    font-weight: bold;
+}
+
+.exponent {
+    background-color: rgb(179, 121, 35);
+    font-weight: bold;
+}
+
+
