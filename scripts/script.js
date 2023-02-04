@@ -44,16 +44,16 @@ function clickButton() {
             } else if(buttons[i].classList.contains('clear')) {
                 clearDisplay();
                 updateDisplay();
-            } else if(buttons[i].classList.contains('sqrt')) {
+            } else if(buttons[i].classList.contains('sqrt')) {  // Else if statement that calls the square root function
                 squareRoot(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('log')) {
+            } else if(buttons[i].classList.contains('log')) {   // Else if statement that calls the log function
             logofX(displayValue);
             updateDisplay();
-            } else if(buttons[i].classList.contains('pi')) {
+            } else if(buttons[i].classList.contains('pi')) {    // Else if statement that calls the pi function
                 piAdd(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('exponent')) 
+            } else if(buttons[i].classList.contains('exponent'))    // Else if statement that calls the exponent function
                 exponentTwo(displayValue);
                 updateDisplay();
         }
@@ -195,21 +195,25 @@ function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
 
+// Function for the square root button
 function squareRoot(num)
 {
     return displayValue = Math.sqrt(num).toFixed(9);
 }
 
+// Function for the log button
 function logofX(num)
 {
     return displayValue = Math.log(num).toFixed(9);
 }
 
+// Function for the PI button
 function piAdd(num)
 {
     return displayValue = Math.PI.toFixed(9);
 }
 
+// Function for the exponent button
 function exponentTwo(num)
 {
     return displayValue = Math.pow(num, 2).toFixed(9);
