@@ -1,6 +1,9 @@
 # Yaman Mohammad
 # :wave: The Basics of GitHub 
 
+## Calculator App
+![](https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-NitronM/blob/main/Calculator%20App.gif)
+
 ## 🤓 Course overview and learning outcomes 
 
 The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
